@@ -1,3 +1,5 @@
+import Age from '../src/age.js';
+
 describe('Age', () => {
     test("returns age for earth years", () => {
 
@@ -5,3 +7,4 @@ describe('Age', () => {
         expect(newAge.years).toBe(47);
 
     });
+}); 
