@@ -17,7 +17,6 @@ describe('Age.getMercuryYears()', () => {
     });
 });
 
-
 describe('Age.getVenusYears()', () => {
     test("returns age for Venus years", () => {
         const newAge = new Age(47)
