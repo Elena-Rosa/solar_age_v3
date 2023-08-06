@@ -22,5 +22,6 @@ describe('Age.getMercuryYears()', () => {
 describe('Age.getVenusYears()', () => {
     test("returns age for Venus years", () => {
         const newAge = new Age(47)
-        expect(newAge.getMercuryYears()).toBeCloseTo(76, .1);
+        expect(newAge.getVenusYears()).toBeCloseTo(76, .1);
     });
+});

@@ -5,6 +5,9 @@ export default class Age {
     getMercuryYears() {
         return this.years / .24;
     }
+    getVenusYears() {
+        return this.years / .62;
+    }
 }
 
 
