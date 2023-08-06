@@ -1,6 +1,6 @@
 import Age from '../src/age.js';
 
-describe('Age', () => {
+describe('newAge.getPastYears', () => {
     test("returns past age for Earth, Mercury, Venus, Mars and Jupiter", () => {
 
         const newAge = new Age(47)
