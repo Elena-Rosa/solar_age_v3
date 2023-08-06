@@ -11,6 +11,10 @@ export default class Age {
     getMarsYears() {
         return this.years / 1.88;
     }
+    getJupiterYears() {
+        return this.years / 11.86;
+    }
+
 }
 
 

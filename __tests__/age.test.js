@@ -9,7 +9,6 @@ import Age from '../src/age.js';
     });
 });
 
-
 describe('Age.getMercuryYears()', () => {
     test("returns age for Mercury years", () => {
         const newAge = new Age(47)
@@ -24,7 +23,6 @@ describe('Age.getVenusYears()', () => {
     });
 });
 
-
 describe('Age.getMarsYears()', () => {
     test("returns age for Mars years", () => {
         const newAge = new Age(47)
@@ -33,7 +31,6 @@ describe('Age.getMarsYears()', () => {
 });
 
 */
-
 describe('Age.getJupiterYears()', () => {
     test("returns age for Jupiter years", () => {
         const newAge = new Age(47)
