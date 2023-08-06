@@ -8,7 +8,7 @@ import Age from '../src/age.js';
 
     });
 });
-*/
+
 
 describe('Age.getMercuryYears()', () => {
     test("returns age for Mercury years", () => {
@@ -16,3 +16,11 @@ describe('Age.getMercuryYears()', () => {
         expect(newAge.getMercuryYears()).toBeCloseTo(196, .1);
     });
 });
+*/
+
+
+describe('Age.getVenusYears()', () => {
+    test("returns age for Venus years", () => {
+        const newAge = new Age(47)
+        expect(newAge.getMercuryYears()).toBeCloseTo(76, .1);
+    });
