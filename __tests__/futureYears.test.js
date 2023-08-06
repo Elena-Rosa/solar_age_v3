@@ -1,3 +1,5 @@
+import Age from '../src/age.js';
+
 describe('Age', () => {
     test("returns future age for Earth, Mercury, Venus, Mars and Jupiter", () => {
 
