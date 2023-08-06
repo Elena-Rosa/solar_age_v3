@@ -15,6 +15,17 @@ export default class Age {
         return this.years / 11.86;
     }
 
-}
+    getPastYears(age, past) {
+        let pastYears = [];
+        this.years = age - past;
 
+        pastYears.push(this.years);
+        pastYears.push(this.getMercuryYears());
+        pastYears.push(this.getVenusYears());
+        pastYears.push(this.getMarsYears());
+        pastYears.push(this.getJupiterYears());
+
+        return pastYears;
+    }
+}
 
