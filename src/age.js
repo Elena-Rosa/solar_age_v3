@@ -27,5 +27,18 @@ export default class Age {
 
         return pastYears;
     }
+
+    getFutureYears(age, future) {
+        let futureYears = [];
+        this.years = future - age;
+
+        futureYears.push(this.years);
+        futureYears.push(this.getMercuryYears());
+        futureYears.push(this.getVenusYears());
+        futureYears.push(this.getMarsYears());
+        futureYears.push(this.getJupiterYears());
+
+        return futureYears;
+    }
 }
 
