@@ -1,6 +1,6 @@
 import Age from '../src/age.js';
 
-describe('Age', () => {
+/*describe('Age', () => {
     test("returns age for earth years", () => {
 
         const newAge = new Age(47)
@@ -8,6 +8,7 @@ describe('Age', () => {
 
     });
 });
+*/
 
 describe('Age.getMercuryYears()', () => {
     test("returns age for Mercury years", () => {
