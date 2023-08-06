@@ -16,7 +16,6 @@ describe('Age.getMercuryYears()', () => {
         expect(newAge.getMercuryYears()).toBeCloseTo(196, .1);
     });
 });
-*/
 
 
 describe('Age.getVenusYears()', () => {
@@ -25,3 +24,12 @@ describe('Age.getVenusYears()', () => {
         expect(newAge.getVenusYears()).toBeCloseTo(76, .1);
     });
 });
+*/
+
+describe('Age.getMarsYears()', () => {
+    test("returns age for Mars years", () => {
+        const newAge = new Age(47)
+        expect(newAge.getMarsYears()).toBeCloseTo(25, .1);
+    });
+});
+
