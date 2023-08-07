@@ -15,11 +15,17 @@ This application determins your current, past, and future age on various planets
 
 ## Setup/Installation requirements
 
+* Install node on your computer if you don't already have it. 
+
 * Clone repo from Github to your desktop with this command. $ git clone https://Elena-Rosa.github.io/solar_age_v3/
-Copy directory into your project directory.  
-Run npm install 
-Run npm start
-Enjoy!
+
+* Copy project directory  
+
+* Run npm install 
+
+* Run npm start
+
+* Enjoy!
 
 ## Known Bugs
 

@@ -1,6 +1,6 @@
 import Age from '../src/age.js';
 
-/*describe('Age', () => {
+describe('Age', () => {
     test("returns age for earth years", () => {
 
         const newAge = new Age(47)
@@ -30,10 +30,11 @@ describe('Age.getMarsYears()', () => {
     });
 });
 
-*/
+
 describe('Age.getJupiterYears()', () => {
     test("returns age for Jupiter years", () => {
         const newAge = new Age(47)
         expect(newAge.getJupiterYears()).toBeCloseTo(3.96, .1);
     });
 });
+
