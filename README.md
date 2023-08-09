@@ -25,7 +25,10 @@ This application determins your current, past, and future age on various planets
 
 * Run npm start
 
+* Run npm test
+
 * Enjoy!
+
 
 ## Known Bugs
 

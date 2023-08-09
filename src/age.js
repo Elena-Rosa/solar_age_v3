@@ -30,7 +30,7 @@ export default class Age {
 
     getFutureYears(age, future) {
         let futureYears = [];
-        this.years = future - age;
+        this.years = age + future;
 
         futureYears.push(this.years);
         futureYears.push(this.getMercuryYears());
